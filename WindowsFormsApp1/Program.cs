@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1.Impl;
-using WindowsFormsApp1.WUI;
-
-namespace WindowsFormsApp1 {
+using UniversityApp.WUI;
+namespace UniversityApp {
 
 
     static class Program {
@@ -20,7 +15,7 @@ namespace WindowsFormsApp1 {
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataForm1());
+            Application.Run(new ScheduleForm());
 
         }
     }
